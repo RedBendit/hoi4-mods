@@ -1,19 +1,4 @@
 characters={
-	USA_franklin_delano_roosevelt={
-		name=USA_franklin_delano_roosevelt
-		portraits={
-			civilian={
-				large=GFX_portrait_USA_franklin_delano_roosevelt
-			}
-		}
-		country_leader={
-			ideology=liberalism
-			traits={ dislikes_germany }
-			expire="1947.1.1.1"
-			id=-1
-		}
-	}
-
 	USA_Akuma={
 		name=USA_Akuma
 		portraits={
@@ -29,6 +14,12 @@ characters={
 			planning_skill= 10
 			logistics_skill= 10
 			legacy_id=0
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ dislikes_germany }
+			expire="1947.1.1.1"
+			id=-1
 		}
 	}
 	USA_Db={

@@ -6,7 +6,7 @@ characters={
 				large=GFX_portrait_USA_akuma_large
 			}
 			civilian={
-				large=GFX_portrait_ITA_akuma_large
+				large=GFX_portrait_USA_akuma_large
 			}
 		}
 		country_leader={

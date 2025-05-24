@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_USA_akuma_large"
+		texturefile = "gfx/leaders/USA/GFX_portrait_USA_akuma_large.dds"
+}
+	spriteType = {
+		name = "GFX_portrait_USA_db_large"
+		texturefile = "gfx/sousncos/GFX_portrait_USA_db_large.dds"
+}
+	spriteType = {
+		name = "GFX_portrait_USA_wcft_large"
+		texturefile = "gfx/sousncos/GFX_portrait_USA_wcft_large.dds"
+}
+	spriteType = {
+		name = "GFX_portrait_USA_beamoose_large"
+		texturefile = "gfx/sousncos/GFX_portrait_USA_beamoose_large.dds"
+}
+	spriteType = {
+		name = "GFX_portrait_USA_nebraska_large"
+		texturefile = "gfx/sousncos/GFX_portrait_USA_nebraska_large.dds"
+}
+	spriteType = {
+		name = "GFX_portrait_USA_sopheaktra_large"
+		texturefile = "gfx/sousncos/GFX_portrait_USA_sopheaktra_large.dds"
+}
+	spriteType = {
+		name = "GFX_portrait_USA_vigital_large"
+		texturefile = "gfx/sousncos/GFX_portrait_USA_vigital_large.dds"
+}
+}

@@ -827,12 +827,6 @@ recruit_character = GER_Dominik
 recruit_character = GER_Omgo
 recruit_character = GER_Tiramisu
 
-
-
-recruit_character = GER_adolf_hitler
-
-recruit_character = GER_alexander_von_falkenhausen #Not visible unless recalled from China
-
 #NEW PEOPLE WW
 
 #SCIENTISTS

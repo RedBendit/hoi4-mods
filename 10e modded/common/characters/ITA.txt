@@ -7,13 +7,6 @@ characters = {
 			}
 		}
 
-		country_leader = {
-			ideology = fascism_ideology
-			traits = { il_duce }
-			expire = "1965.1.1.1"
-			id = -1
-		}
-
 		corps_commander = {
 			traits={}
 			skill=1
@@ -25,22 +18,6 @@ characters = {
 			visible = {
 				has_completed_focus = ITA_capo_supremo
 			}
-		}
-	}
-
-	ITA_grand_council = {
-		name = ITA_grand_council
-		portraits = {
-			civilian = {
-				large = GFX_portrait_ITA_grand_council
-			}
-		}
-
-		country_leader = {
-			ideology = fascism_ideology
-			traits = { the_grand_council }
-			expire = "1965.1.1.1"
-			id = -1
 		}
 	}
 
@@ -59,6 +36,12 @@ characters = {
 			planning_skill= 10
 			logistics_skill= 10
 			legacy_id=0
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = { il_duce }
+			expire = "1999.1.1.1"
+			id = -1
 		}
 	}
 
@@ -165,7 +148,7 @@ characters = {
 			legacy_id=0
 		}
 	}
-	ITA_Feneha{
+	ITA_Feneha={
 		name=ITA_Feneha
 		portraits={
 			army={
@@ -182,7 +165,7 @@ characters = {
 			legacy_id=0
 		}
 	}
-	ITA_Austin{
+	ITA_Austin={
 		name=ITA_Austin
 		portraits={
 			army={
@@ -199,7 +182,7 @@ characters = {
 			legacy_id=0
 		}
 	}
-	ITA_Skaters{
+	ITA_Skaters={
 		name=ITA_Skaters
 		portraits={
 			army={
@@ -216,7 +199,7 @@ characters = {
 			legacy_id=0
 		}
 	}
-	ITA_Mysterious{
+	ITA_Mysterious={
 		name=ITA_Mysterious
 		portraits={
 			army={

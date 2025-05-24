@@ -1,4 +1,4 @@
-﻿capital = 2 # Rome
+capital = 2 # Rome
 
 ETH_set_up_lon_arms_resolution_effect = yes 
 
@@ -745,10 +745,6 @@ set_popularities = {
 	communism = 2
 	neutrality = 5
 }
-
-recruit_character = ITA_benito_mussolini
-recruit_character = ITA_grand_council
-
 
 
 recruit_character = ITA_Skipper

@@ -5,6 +5,15 @@ characters={
 			army={
 				large=GFX_portrait_USA_akuma_large
 			}
+			civilian={
+				large=GFX_portrait_ITA_akuma_large
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ dislikes_germany }
+			expire="1947.1.1.1"
+			id=-1
 		}
 		field_marshal = {
 			traits={ old_guard infantry_officer trait_mountaineer }
@@ -14,12 +23,6 @@ characters={
 			planning_skill= 10
 			logistics_skill= 10
 			legacy_id=0
-		}
-		country_leader={
-			ideology=liberalism
-			traits={ dislikes_germany }
-			expire="1947.1.1.1"
-			id=-1
 		}
 	}
 	USA_Db={

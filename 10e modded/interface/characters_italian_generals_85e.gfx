@@ -1,0 +1,48 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_ITA_skipper_large"
+		texturefile = "gfx/leaders/ITA/GFX_portrait_ITA_skipper_large.dds"
+}
+	spriteType = {
+		name = "GFX_portrait_ITA_fish_large"
+		texturefile = "gfx/leaders/ITA/GFX_portrait_ITA_fish_large.dds"
+}
+
+
+	spriteType = {
+		name = "GFX_portrait_ITA_diablo_large"
+		texturefile = "gfx/sousncos/GFX_portrait_ITA_diablo_large.dds"
+}
+	spriteType = {
+		name = "GFX_portrait_ITA_zompi_large"
+		texturefile = "gfx/sousncos/GFX_portrait_ITA_zompi_large.dds"
+}
+	spriteType = {
+		name = "GFX_portrait_ITA_raciley_large"
+		texturefile = "gfx/sousncos/GFX_portrait_ITA_raciley_large.dds"
+}
+	spriteType = {
+		name = "GFX_portrait_ITA_vicdu_large"
+		texturefile = "gfx/sousncos/GFX_portrait_ITA_vicdu_large.dds"
+}
+	spriteType = {
+		name = "GFX_portrait_ITA_adam_large"
+		texturefile = "gfx/sousncos/GFX_portrait_ITA_adam_large.dds"
+}
+	spriteType = {
+		name = "GFX_portrait_ITA_feneha_large"
+		texturefile = "gfx/sousncos/GFX_portrait_ITA_feneha_large.dds"
+}
+	spriteType = {
+		name = "GFX_portrait_ITA_austin_large"
+		texturefile = "gfx/sousncos/GFX_portrait_ITA_austin_large.dds"
+}
+	spriteType = {
+		name = "GFX_portrait_ITA_skaters_large"
+		texturefile = "gfx/sousncos/GFX_portrait_ITA_skaters_large.dds"
+}
+	spriteType = {
+		name = "GFX_portrait_ITA_mysterious_large"
+		texturefile = "gfx/sousncos/GFX_portrait_ITA_mysterious_large.dds"
+}
+}

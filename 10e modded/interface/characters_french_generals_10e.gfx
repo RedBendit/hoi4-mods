@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_FRA_farzio_large"
+		texturefile = "gfx/sousncos/GFX_portrait_FRA_farzio_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FRA_kinosso_large"
+		textureFile = "gfx/sousncos/GFX_portrait_FRA_kinosso_large.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_shuzhe_large"
+		textureFile = "gfx/sousncos/GFX_portrait_FRA_shuzhe_large.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_loltert_large"
+		textureFile = "gfx/sousncos/GFX_portrait_FRA_loltert_large.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_France_Petrus_Mechant_large"
+		textureFile = "gfx/leaders/FRA/Portrait_France_Petrus_Mechant.dds"
+	}
+
+}

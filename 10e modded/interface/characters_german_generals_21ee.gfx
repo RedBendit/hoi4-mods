@@ -1,0 +1,41 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_GER_conrad_large"
+		texturefile = "gfx/leaders/twentyone/GFX_portrait_GER_conrad_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_pohodar_large"
+		texturefile = "gfx/leaders/twentyone/GFX_portrait_GER_pohodar_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_atherados_large"
+		texturefile = "gfx/leaders/twentyone/GFX_portrait_GER_atherados_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_omgo_large"
+		texturefile = "gfx/leaders/twentyone/GFX_portrait_GER_omgo_large.dds"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_portrait_GER_fidorita_large"
+		texturefile = "gfx/sousncos/GFX_portrait_GER_fidorita_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_diggle_large"
+		texturefile = "gfx/sousncos/GFX_portrait_GER_diggle_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_erik_large"
+		texturefile = "gfx/sousncos/GFX_portrait_GER_erik_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_dominik_large"
+		texturefile = "gfx/sousncos/GFX_portrait_GER_dominik_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_tiramisu_large"
+		texturefile = "gfx/sousncos/GFX_portrait_GER_tiramisu_large.dds"
+	}
+}

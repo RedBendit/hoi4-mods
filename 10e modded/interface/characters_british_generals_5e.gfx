@@ -1,0 +1,8 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_FRA_farzio_large"
+		texturefile = "gfx/sousncos/GFX_portrait_FRA_farzio_large.dds"
+	}
+	
+
+}

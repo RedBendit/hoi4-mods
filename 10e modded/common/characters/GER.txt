@@ -18,6 +18,13 @@ characters = {
 			logistics_skill=10
 			legacy_id=0
 		}
+		country_leader = {
+			ideology = nazism
+			traits = { GER_der_fuhrer }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
 	}
 
 	GER_Pohodar={

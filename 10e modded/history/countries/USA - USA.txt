@@ -1,4 +1,4 @@
-﻿capital = 361 # Washington DC
+capital = 361 # Washington DC
 
 oob = "USA_1936"
 
@@ -398,13 +398,6 @@ set_autonomy = {
 		elections_allowed = yes
 	}
 }
-
-recruit_character = USA_earl_browder
-recruit_character = USA_william_dudley_pelley
-recruit_character = USA_franklin_delano_roosevelt
-
-
-
 
 recruit_character = USA_Akuma
 recruit_character = USA_Db

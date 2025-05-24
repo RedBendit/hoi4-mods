@@ -1,41 +1,11 @@
 characters = {
-
-	GER_adolf_hitler = {
-		name = GER_adolf_hitler
-		portraits = {
-			civilian = {
-				large = GFX_portrait_GER_adolf_hitler
-			}
-		}
-		country_leader = {
-			ideology = nazism
-			traits = { GER_der_fuhrer }
-			expire = "1965.1.1.1"
-			id = -1
-		}
-	}
-
-	GER_eva_braun = {
-		name = GER_eva_braun
-		portraits = {
-			civilian = {
-				large = GFX_portrait_GER_eva_braun
-				small = GFX_portrait_GER_eva_braun_small
-			}
-		}
-		gender = female
-		#country_leader = {
-		#	ideology = nazism
-		#	traits = { GER_the_iron_maiden }
-		#	expire = "1965.1.1.1"
-		#	id = -1
-		#}
-	}
-
 	GER_Conrad={
 		name=GER_Conrad
 		portraits={
 			army={
+				large=GFX_portrait_GER_conrad_large
+			}
+			civilian={
 				large=GFX_portrait_GER_conrad_large
 			}
 		}

@@ -1,7 +1,22 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_portrait_FRA_farzio_large"
-		texturefile = "gfx/sousncos/GFX_portrait_FRA_farzio_large.dds"
+		name = "GFX_portrait_ENG_blue_large"
+		texturefile = "gfx/leaders/ENG/GFX_Portrait_England_Blue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_jackphilip_large"
+		texturefile = "gfx/leaders/ENG/GFX_Portrait_England_jackphilip.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_C4_large"
+		texturefile = "gfx/leaders/ENG/GFX_Portrait_England_C4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Jolly_large"
+		texturefile = "gfx/sousncos/GFX_Portrait_England_Jolly.dds"
 	}
 	
 

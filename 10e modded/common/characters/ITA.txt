@@ -27,6 +27,15 @@ characters = {
 			army={
 				large=GFX_portrait_ITA_skipper_large
 			}
+			civilian={
+				large=GFX_portrait_ITA_skipper_large
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = { il_duce }
+			expire = "1999.1.1.1"
+			id = -1
 		}
 		field_marshal = {
 			traits={ old_guard infantry_officer trait_mountaineer }
@@ -36,12 +45,6 @@ characters = {
 			planning_skill= 10
 			logistics_skill= 10
 			legacy_id=0
-		}
-		country_leader = {
-			ideology = fascism_ideology
-			traits = { il_duce }
-			expire = "1999.1.1.1"
-			id = -1
 		}
 	}
 

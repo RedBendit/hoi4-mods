@@ -1,0 +1,53 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_CHI_blue_large"
+		texturefile = "gfx/leaders/CHI/GFX_Portrait_China_Blue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_jackphilip_large"
+		texturefile = "gfx/leaders/CHI/GFX_Portrait_China_Jackphilip.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_C4_large"
+		texturefile = "gfx/leaders/CHI/GFX_Portrait_China_C4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_Jolly_large"
+		texturefile = "gfx/sousncos/GFX_Portrait_CHI_Jolly.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_gort_large"
+		texturefile = "gfx/sousncos/GFX_Portrait_CHI_Gort.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_domortas_large"
+		texturefile = "gfx/sousncos/GFX_Portrait_CHI_Domortas.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_youch_large"
+		texturefile = "gfx/sousncos/GFX_Portrait_CHI_Youch.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_white_perche_large"
+		texturefile = "gfx/sousncos/GFX_Portrait_CHI_White_Perche.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_Remmiiiemmiii_large"
+		texturefile = "gfx/sousncos/GFX_Portrait_CHI_Remmiiiemmiii.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_luitpold_von_kleist_large"
+		texturefile = "gfx/sousncos/GFX_Portrait_CHI_Luitpold_von_Kleist.dds"
+	}
+	
+
+}

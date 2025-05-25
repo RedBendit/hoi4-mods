@@ -2,13 +2,13 @@ characters={
 	
 
 	ENG_bluething={
-		name=ENG_bluething
+		name=ENG_britainleader
 		portraits={
 			civilian={
-				large=GFX_portrait_ENG_blue_large
+				large=x
 			}
 			army = {
-				large=GFX_portrait_ENG_blue_large
+				large=x
 			}
 		}
 		country_leader={

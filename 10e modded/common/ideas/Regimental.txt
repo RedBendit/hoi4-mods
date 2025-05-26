@@ -1,1 +1,20 @@
 # Global ideas across regiments
+
+ideas = {
+  country = { # so it's not economic law
+  old_strategies = {
+			
+      allowed = {
+	      original_tag = FRA
+      }
+			
+      removal_cost = -1
+			
+      modifier = {
+        land_doctrine_cost_factor = 0.50
+        air_doctrine_cost_factor = 0.50 
+        naval_doctrine_cost_factor  = 0.50
+      }
+   }
+ }
+}

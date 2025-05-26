@@ -1,0 +1,746 @@
+focus_tree = {
+	id = french_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+
+	initial_show_position = {
+		x = 0
+	}
+
+	
+	default = no
+	focus = {
+		id = FRA_mechant_loyalty
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 5
+		y = 0
+		
+		prerequisite = {}
+		mutually_exclusive = {focus = FRA_assassinate_mechant}
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_assassinate_mechant
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 12
+		y = 0
+		
+		prerequisite = {  }
+		mutually_exclusive = { focus=FRA_mechant_loyalty }
+		relative_position_id = FRA_mechant_loyalty
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	focus = {
+		id = FRA_execute_luukin
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -5
+		y = 1
+		
+		prerequisite = { focus = FRA_mechant_loyalty }
+		mutually_exclusive = { }
+		relative_position_id = FRA_mechant_loyalty
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = FRA_great_compromise
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 5
+		y = 1
+		
+		prerequisite = { focus = FRA_mechant_loyalty }
+		mutually_exclusive = { }
+		relative_position_id = FRA_mechant_loyalty
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = FRA_warroom_convenes
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -5
+		y = 1
+		
+		prerequisite = { focus = FRA_assassinate_mechant }
+		mutually_exclusive = { focus=FRA_revenge focus=FRA_strakist_coup}
+		relative_position_id = FRA_assassinate_mechant
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+
+
+
+
+		focus = {
+		id = FRA_strakist_coup
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 5
+		y = 1
+		
+		prerequisite = { focus = FRA_assassinate_mechant }
+		mutually_exclusive = { focus=FRA_revenge focus=FRA_warroom_convenes}
+		relative_position_id = FRA_assassinate_mechant
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = FRA_keep_listack
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -2
+		y = 1
+		
+		prerequisite = { focus = FRA_great_compromise focus=FRA_warroom_convenes }
+		mutually_exclusive = { }
+		relative_position_id = FRA_great_compromise
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_invite_hermann
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = FRA_great_compromise focus=FRA_warroom_convenes }
+		mutually_exclusive = { }
+		relative_position_id = FRA_great_compromise
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_bureaucracy
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 2
+		y = 1
+		
+		prerequisite = { focus = FRA_great_compromise focus=FRA_warroom_convenes }
+		mutually_exclusive = { }
+		relative_position_id = FRA_great_compromise
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_pockemon_caporal
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 4
+		y = 1
+		
+		prerequisite = { focus = FRA_great_compromise focus=FRA_warroom_convenes }
+		mutually_exclusive = { }
+		relative_position_id = FRA_great_compromise
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_revenge
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = FRA_assassinate_mechant }
+		mutually_exclusive = { focus = FRA_strakist_coup focus=FRA_warroom_convenes}
+		relative_position_id = FRA_assassinate_mechant
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_promote_zorane
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = FRA_revenge }
+		mutually_exclusive = { }
+		relative_position_id = FRA_revenge
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_plot_with_radicals
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = FRA_revenge }
+		mutually_exclusive = { }
+		relative_position_id = FRA_revenge
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+
+
+
+
+
+
+
+	focus = {
+		id = FRA_carabinier_training
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = FRA_strakist_coup }
+		mutually_exclusive = { }
+		relative_position_id = FRA_strakist_coup
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_great_neymar_purge
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 2
+		y = 1
+		
+		prerequisite = { focus = FRA_strakist_coup }
+		mutually_exclusive = { }
+		relative_position_id = FRA_strakist_coup
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = FRA_path_to_total_war
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -2
+		y = 1
+		
+		prerequisite = { focus = FRA_strakist_coup }
+		mutually_exclusive = { }
+		relative_position_id = FRA_strakist_coup
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_eu_brigade
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = FRA_keep_listack }
+		mutually_exclusive = { }
+		relative_position_id = FRA_keep_listack
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = FRA_legocracy
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -2
+		y = 1
+		
+		prerequisite = { focus = FRA_execute_luukin }
+		mutually_exclusive = {focus=FRA_1ere_compangnie_of_the_3rd }
+		relative_position_id = FRA_execute_luukin
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_invite_manning
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = FRA_legocracy }
+		mutually_exclusive = { }
+		relative_position_id = FRA_legocracy
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_annex_5e
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = FRA_invite_manning }
+		mutually_exclusive = { }
+		relative_position_id = FRA_invite_manning
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = FRA_1ere_compangnie_of_the_3rd
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 2
+		y = 1
+		
+		prerequisite = { focus = FRA_execute_luukin }
+		mutually_exclusive = { focus= FRA_legocracy}
+		relative_position_id = FRA_execute_luukin
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_cilo_project
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -2
+		y = 1
+		
+		prerequisite = { focus = FRA_1ere_compangnie_of_the_3rd }
+		mutually_exclusive = {focus=FRA_claim_the_eu_primacy }
+		relative_position_id = FRA_1ere_compangnie_of_the_3rd
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_claim_the_eu_primacy
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 2
+		y = 1
+		
+		prerequisite = { focus = FRA_1ere_compangnie_of_the_3rd }
+		mutually_exclusive = {focus=FRA_cilo_project }
+		relative_position_id = FRA_1ere_compangnie_of_the_3rd
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		completion_reward = {
+		}
+	}
+}

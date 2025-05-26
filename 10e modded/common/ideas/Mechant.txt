@@ -14,13 +14,14 @@ ideas = {
 			
       modifier = {
         political_power_gain = 0.15
+        stability_factor = 0.05
       }
    }
  
 
   home_of_viking = {
 
-   allowed = {
+      allowed = {
 	      original_tag = FRA
       }
 			
@@ -30,6 +31,32 @@ ideas = {
         stability_factor = 0.1
         war_support_factor = 0.05
         political_power_gain = 0.1
+        army_org_factor = 0.05
+      }
+  }
+
+  ecoles_on_the_march = {
+
+      allowed = {
+	      original_tag = FRA
+      }
+			
+      removal_cost = -1
+			
+      modifier = {
+        training_time_factor = -0.05
+      }
+  }
+
+  mechant_and_regiment = {
+      allowed = {
+	original_tag = FRA
+      }
+			
+      removal_cost = -1
+			
+      modifier = {
+        army_morale_factor = 0.05
       }
   }
  }

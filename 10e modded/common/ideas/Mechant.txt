@@ -1,3 +1,17 @@
 ideas = {
-
+country = { # so it's not economic law
+  #mechant_dynasty = {
+	#		
+		#	allowed = {
+		#		original_tag = FRA
+		#	}
+		#	
+	#		removal_cost = -1
+	#		
+	#		modifier = {
+ #       political_power_gain
+ #     }
+#
+#		}
+# }
 }

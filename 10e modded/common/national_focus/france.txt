@@ -91,7 +91,7 @@ focus_tree = {
 		y = 1
 		
 		prerequisite = { focus = FRA_mechant_loyalty }
-		mutually_exclusive = { focus=FRA_great_compromise}
+		mutually_exclusive = { }
 		relative_position_id = FRA_mechant_loyalty
 		cost = 10
 
@@ -124,7 +124,7 @@ focus_tree = {
 		y = 1
 		
 		prerequisite = { focus = FRA_mechant_loyalty }
-		mutually_exclusive = {focus=FRA_execute_luukin }
+		mutually_exclusive = { }
 		relative_position_id = FRA_mechant_loyalty
 		cost = 10
 

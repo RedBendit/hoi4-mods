@@ -73,3 +73,7 @@
  JAP:0 "16ème Régiment"
  JAP_DEF:0 "16ème Régiment"
  JAP_ADJ:0 "16ème Régiment"
+ SOV_neutrality:0 " Tsarist Russia"
+ SOV_democratic:0 "Russian Federation"
+ SOV_fascism:0 "Russian Empire"
+ SOV_communism:0 "Soviet Union"

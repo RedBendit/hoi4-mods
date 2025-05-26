@@ -1,17 +1,35 @@
+# These all need to be added in history files
+# These also need icons
+
 ideas = {
-country = { # so it's not economic law
-  #mechant_dynasty = {
-	#		
-		#	allowed = {
-		#		original_tag = FRA
-		#	}
-		#	
-	#		removal_cost = -1
-	#		
-	#		modifier = {
- #       political_power_gain
- #     }
-#
-#		}
-# }
+  country = { # so it's not economic law
+  mechant_dynasty = {
+			
+      allowed = {
+	      original_tag = FRA
+      }
+			
+      removal_cost = -1
+			
+      modifier = {
+        political_power_gain = 0.15
+      }
+   }
+ 
+
+  home_of_viking = {
+
+   allowed = {
+	      original_tag = FRA
+      }
+			
+      removal_cost = -1
+			
+      modifier = {
+        stability_factor = 0.1
+        war_support_factor = 0.05
+        political_power_gain = 0.1
+      }
+  }
+ }
 }

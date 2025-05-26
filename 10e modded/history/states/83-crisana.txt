@@ -8,7 +8,7 @@ state={
 
 	history={
 		owner = AUS
-		add_core_of = AUS
+		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -19,6 +19,12 @@ state={
 		}
 		add_core_of = ROM
 		add_core_of = TRA
+
+		start_resistance = yes
+
+        set_compliance = 1
+
+        set_resistance = 40
 	}
 
 	provinces={

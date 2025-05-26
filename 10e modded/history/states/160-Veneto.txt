@@ -10,7 +10,7 @@ state = {
 
 	history = {
 		owner = AUS
-		add_core_of = AUS
+		
 		victory_points = { #Venezia
 			11584 10 
 		}
@@ -39,6 +39,11 @@ state = {
 				industrial_complex = 5
 			}
 		}
+		start_resistance = yes
+
+        set_compliance = 1
+
+        set_resistance = 35
 
 	}
 

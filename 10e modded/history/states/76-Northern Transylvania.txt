@@ -8,7 +8,7 @@ state = {
 	history = {
 
 		owner = AUS
-		add_core_of = AUS
+		
 		add_core_of = ROM
 		add_core_of = TRA
 
@@ -28,6 +28,12 @@ state = {
 		victory_points = {
 			9670 1 
 		}
+
+		start_resistance = yes
+
+        set_compliance = 1
+
+        set_resistance = 35
 		
 	}
 

@@ -7,7 +7,7 @@ state = {
 	
 	history = {
 		owner = AUS
-		add_core_of = AUS
+		
 		victory_points = { #Zara/Zadar
 			3943 5 
 		}
@@ -27,6 +27,12 @@ state = {
 		##CONTROLLED BY ITALY AT GAME START -> ITALIAN NAMES
 		#set_state_name = STATE_163_ITA
 		#set_province_name = { id = 3943 name = VICTORY_POINTS_3943_ITA }
+
+		start_resistance = yes
+
+        set_compliance = 1
+
+        set_resistance = 60
 	}
 	provinces = {	
 		3943 

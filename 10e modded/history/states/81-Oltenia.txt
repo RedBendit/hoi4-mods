@@ -11,12 +11,18 @@ state={
 			6652 1
 		}
 		owner = AUS
-		add_core_of = AUS
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 		}
 		add_core_of = ROM
+
+		start_resistance = yes
+
+        set_compliance = 1
+
+        set_resistance = 40
 	}
 	provinces={
 		637 3630 3645 6652 6667 11588 11605 11657 

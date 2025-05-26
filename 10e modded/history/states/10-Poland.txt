@@ -7,7 +7,6 @@ state={
 
 	history={
 		owner = PRE
-		add_core_of = PRE
 		victory_points = {
 			3544 25
 		}
@@ -22,6 +21,12 @@ state={
 			air_base = 5
 		}
 		add_core_of = POL
+
+		start_resistance = yes
+
+        set_compliance = 0
+
+        set_resistance = 70
 	}
 
 	provinces={

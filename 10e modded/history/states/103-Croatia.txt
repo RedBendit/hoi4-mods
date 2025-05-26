@@ -9,7 +9,7 @@ state={
 
 	history={
 		owner = AUS
-		add_core_of = AUS
+		
 		victory_points = { #Dubrovnik
 			6889 3 
 		}
@@ -30,6 +30,12 @@ state={
 		add_core_of = YUG
 		#add_claim_by = ITA #added by focus
 		add_core_of = CRO
+
+		start_resistance = yes
+
+        set_compliance = 1
+
+        set_resistance = 45
 	}
 
 	provinces={

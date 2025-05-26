@@ -20,11 +20,16 @@ state={
 		#	562 3
 		#}
 		owner = PRE
-		add_core_of = PRE
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = POL
+
+		start_resistance = yes
+
+        set_compliance = 1
+
+        set_resistance = 50
 	}
 
 	provinces={

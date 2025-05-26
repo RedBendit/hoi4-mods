@@ -1,5 +1,6 @@
 # These all need to be added in history files
 # These also need icons
+# Localisation also needed
 
 ideas = {
   country = { # so it's not economic law

@@ -29,7 +29,7 @@ ideas = {
 			
       modifier = {
         stability_factor = 0.1
-        war_support_factor = 0.05
+        war_support_factor = -0.05
         political_power_gain = 0.1
         army_org_factor = 0.05
       }

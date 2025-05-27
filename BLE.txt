@@ -1,0 +1,28 @@
+characters={
+	BLE_bluething={
+		name=ENG_britainleader
+		portraits={
+			civilian={
+				large=x
+			}
+			army = {
+				large=x
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ conservative_grandee }
+			expire="1970.1.1.1"
+			id=-1
+		}
+
+		field_marshal = {
+			traits={ career_officer offensive_doctrine }
+			skill = 5
+			attack_skill = 10
+			defense_skill = 10
+			planning_skill = 9
+			logistics_skill = 9
+		}
+	}
+}

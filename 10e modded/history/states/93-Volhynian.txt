@@ -21,6 +21,12 @@ state={
 		add_core_of = POL
 		add_core_of = UKR
 
+		start_resistance = yes
+
+        set_compliance = 1
+
+        set_resistance = 45
+
 	}
 
 	provinces={

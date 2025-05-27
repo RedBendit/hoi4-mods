@@ -1,0 +1,10 @@
+CNR = "countries/TwentyFirst.txt" # Conrad
+MEC = "countries/Tenth.txt" # Mechant
+BLE = "countries/Fifth.txt" # Bleu
+HAF = "countries/Sixteenth.txt" # Haffion
+FGR = "countries/FGarde.txt" # Kiiranoz
+SKI = "countries/EightyFifth.txt" # Skipper
+AKU = "countries/Third.txt" # Akuma
+
+RSA = "countries/RussianTsardom.txt" # Russia
+AUT = "countries/KaisertumAustria.txt"# Austria

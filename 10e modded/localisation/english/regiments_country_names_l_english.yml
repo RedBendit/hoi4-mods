@@ -1,0 +1,39 @@
+﻿l_english:
+# All regiments
+# Order: France, Coalition
+ AKU:0 "3ème Régiment"
+ AKU_ADJ:0 "3ème Régiment"
+ AKU_DEF:0 "the 3ème Régiment"
+
+
+ BLE:0 "5ème Régiment"
+ BLE_ADJ:0 "5ème Régiment"
+ BLE_DEF:0 "the 5ème Régiment"
+
+ MEC:0 "10ème Régiment"
+ MEC_ADJ:0 "10ème Régiment"
+ MEC_DEF:0 "the 10ème Régiment"
+
+ CNR:0 "21ème Régiment"
+ CNR_ADJ:0 "21ème Régiment"
+ CNR_DEF:0 "the 21ème Régiment"
+
+ FGR:0 "Fusilier-Grenadiers de la Garde"
+ FGR_ADJ:0 "Fusilier-Grenadiers de la Garde"
+ FGR_DEF:0 "the Fusilier-Grenadiers de la Garde"
+
+ SKI:0 "85ème Régiment"
+ SKI_ADJ:0 "85ème Régiment"
+ SKI_DEF:0 "the 85ème Régiment"
+
+ HAF:0 "16ème Régiment"
+ HAF_ADJ:0 "16ème Régiment"
+ HAF_DEF:0 "the 16ème Régiment"
+
+ AUT:0 "Austrian Empire"
+ AUT_ADJ:0 "Austrian"
+ AUT_DEF:0 "the Austrian Empire"
+
+ RSA:0 "Russian Tsardom"
+ RSA_ADJ:0 "Russian"
+ RSA_DEF:0 "the Russian Tsardom"
